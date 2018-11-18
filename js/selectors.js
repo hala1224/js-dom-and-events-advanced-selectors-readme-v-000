@@ -1,6 +1,6 @@
 // declare your functions here...
 function paragraphSelector() {
-  par = $('p');
+  par = $("p");
   for (let i=0; i < par.length; i++) {
     return (par[i]);
   }
