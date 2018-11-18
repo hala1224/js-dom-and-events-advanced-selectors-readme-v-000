@@ -2,7 +2,7 @@
 function paragraphSelector() {
   par = $('p');
   for (let i=0; i < par.length; i++) {
-    console.log(par[i]);
+    return (par[i]);
   }
 }
 function lastImageSelector() {
