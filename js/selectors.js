@@ -9,10 +9,12 @@ function ninjaBabySelector() {
   // $('.pics img');
  return  $('#baby-ninja');
 }
+
 function divSelector(){
-   return  $('.pics div');
-  // return $(".pics *div");
+  return $(".pics:nth-child(1)")+$(".pics:nth-child(2)");
+} 
+
+function firstListItem(){
+  return $("#pic-list li:first-child");
 }
-function firstListItem() {
-  return $("#pic-list ul li:first-child");
-}
+
