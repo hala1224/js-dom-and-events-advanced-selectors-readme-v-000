@@ -10,7 +10,7 @@ function ninjaBabySelector() {
  return  $('#baby-ninja');
 }
 function divSelector(){
-  // return $(".pics:nth-child(1)")+$(".pics:nth-child(2)");
+   return $(".pics div:nth-child(1)")+$(".pics div:nth-child(2)");
   // return $(".pics *div");
 }
 function firstListItem() {
